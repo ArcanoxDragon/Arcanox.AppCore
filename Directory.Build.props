@@ -1,0 +1,14 @@
+<Project>
+	<PropertyGroup>
+		<BaseTargetFramework>net10.0</BaseTargetFramework>
+		<TargetFramework>$(BaseTargetFramework)</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Authors>Arcanox</Authors>
+		<Copyright>Copyright (c) 2026 Arcanox</Copyright>
+	</PropertyGroup>
+</Project>
