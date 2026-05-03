@@ -3,5 +3,6 @@
 		<File Path="Directory.Build.props" />
 		<File Path="Directory.Packages.props" />
 	</Folder>
+	<Project Path="Arcanox.AppCore.Reactive/Arcanox.AppCore.Reactive.csproj" Id="21a2fa46-4a2c-4b04-85e2-9dcedc4f79dc" />
 	<Project Path="Arcanox.AppCore/Arcanox.AppCore.csproj" />
 </Solution>

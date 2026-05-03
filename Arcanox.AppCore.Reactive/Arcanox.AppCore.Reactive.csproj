@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ReactiveUI" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Arcanox.AppCore\Arcanox.AppCore.csproj" />
+	</ItemGroup>
+
+</Project>

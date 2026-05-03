@@ -10,5 +10,6 @@
 		<PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.7" />
 		<PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.7" />
 		<PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.7" />
+		<PackageVersion Include="ReactiveUI" Version="23.1.8" />
 	</ItemGroup>
 </Project>
