@@ -52,6 +52,8 @@ where TSettings : class, ISettings<TSettings>, new()
 
 	public void Configure(TSettings options)
 	{
+		EnsureLoaded();
+
 		// Copy all values from our private instance to the instance being configured
 		this.settings.CopyTo(options);
 	}
