@@ -12,7 +12,7 @@ namespace Arcanox.AppCore.Settings;
 internal class SettingsManager<TSettings> : ISettingsManager<TSettings>,
 											IConfigureOptions<TSettings>,
 											IOptionsChangeTokenSource<TSettings>
-where TSettings : class, ISettings, new()
+where TSettings : class, ISettings<TSettings>, new()
 {
 	private readonly Lock                    loadSettingsLock = new();
 	private readonly string                  settingsTypeName;

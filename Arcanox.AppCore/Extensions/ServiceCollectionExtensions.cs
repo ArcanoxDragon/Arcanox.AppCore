@@ -55,7 +55,7 @@ public static class ServiceCollectionExtensions
 		/// and deserialize the settings class in a reflection-free manner (for compatibility with trimmed/AOT compilation).
 		/// </param>
 		public IServiceCollection AddSettingsManager<TSettings>(string settingsFileName, JsonTypeInfo<TSettings> settingsTypeInfo)
-		where TSettings : class, ISettings, new()
+		where TSettings : class, ISettings<TSettings>, new()
 		{
 			var settingsTypeName = typeof(TSettings).FullName!;
 
